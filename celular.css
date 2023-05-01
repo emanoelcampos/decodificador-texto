@@ -107,6 +107,7 @@ textarea {
     border-radius: 32px;
     margin-top: 64px;
     padding: 32px 0;
+    margin-bottom: 30px;
 }
 
 .img-output {
@@ -138,10 +139,11 @@ footer {
     color: black;    
     text-align: center;
     font-size: 14px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
+  
 
 
 footer a {
