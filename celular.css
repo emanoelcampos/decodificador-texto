@@ -56,7 +56,8 @@ textarea {
 .container-alerta-texto {
     display: flex;
     height: 18px;
-    margin: 16px 0;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .img-alerta-texto {
@@ -139,7 +140,7 @@ footer {
     font-size: 14px;
     position: fixed;
     bottom: 0;
-    width: 90%;
+    width: 100%;
 }
 
 
