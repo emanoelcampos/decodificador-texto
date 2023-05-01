@@ -139,11 +139,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #F3F5FC;
     text-align: center;
     font-size: 14px;
     padding: 10px;
-    display: none;
 }
   
 
