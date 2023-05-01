@@ -136,15 +136,16 @@ textarea {
 }
 
 footer {
-    color: black;    
-    text-align: center;
-    font-size: 14px;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #F3F5FC;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    display: none;
 }
   
-
 
 footer a {
     color: #0A3871;
