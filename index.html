@@ -1,36 +1,73 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Challenge - ONE</title>
-    <link rel="shortcut icon" href="assets/favicon/alura-favicon-ico.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/favicon/alura-favicon-png.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;700;800&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codificador Texto</title>
+        <link rel="shortcut icon" href="assets/favicon/alura-favicon-ico.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/favicon/alura-favicon-png.png" type="image/x-icon">
+        <link rel="stylesheet" href="celular.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
 
-</head>
-<body>
+    <body>
+        <header>
+            <h1>
+                <picture id="img-logo">
+                    <source srcset="assets/logo/logo-svg.svg" type="image/svg+xml">
+                    <source srcset="assets/logo/logo-png.png" type="image/png">
+                    <source srcset="assets/logo/logo-jpg.jpg" type="image/jpg">
+                    <img src="assets/logo/logo-svg.svg" alt="logo alura com a inicial da letra a">
+                </picture>
+            </h1>
+        </header>
 
-    <header>
+        <main>
 
-    </header>
+            <div class="container-conteudo">
+                <section class="container-input">
+                    <textarea placeholder="Digite seu texto"></textarea>
+                        <div class="container-alerta-texto">
+                            <picture class="img-alerta-texto">
+                                <source srcset="assets/icone-alerta/alerta-svg.svg" type="image/svg+xml">
+                                <source srcset="assets/icone-alerta/alerta-png.png" type="image/png">
+                                <source srcset="assets/icone-alerta/alerta-jpg.jpg" type="image/jpg">
+                                <img src="assets/icone-alerta/alerta-svg.svg" alt="icone de alerta">
+                            </picture>
+                            <p class="texto-alerta">Apenas letras minúsculas e sem acento.</p>
+                        </div>
+                        <div class="container-botoes">
+                            <button class="botao-cript">Criptografar</button>
+                            <button class="botao-descript">Descriptografar</button>
+                        </div>
+                </section>
+                
+                <section class="container-output">
+                            <picture class="img-output">
+                                <source srcset="assets/pessoa-lupa/pessoa-lupa-svg.svg" type="image/svg+xml">
+                                <source srcset="assets/pessoa-lupa/pessoa-lupa-png.png" type="image/png">
+                                <source srcset="assets/pessoa-lupa/pessoa-lupa-jpg.jpg" type="image/jpg">
+                                <img src="assets/pessoa-lupa/pessoa-lupa-svg.svg" alt="desenho de uma pessoa olhando por uma lupa">
+                            </picture>
+                            
+                            <p class="titulo-sem-input">Nenhuma mensagem encontrada</p>
+                            <p class="texto-sem-input">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </section>
+            </div>
 
-    <section>
-        
-    </section>
-    
-    <section>
-        
-    </section>
+        </main>
 
-    <footer>
+        <footer>
+            <p>Site criado por <a href="https://github.com/emanoelcampos" target="_blank">emanoel campos</a> para o desafio do <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">Programa ONE - Oracle Next Education</a> em colaboração com a <a href="https://cursos.alura.com.br/user/emanoelcampos" target="_blank">Alura</a></p>
+        </footer>
 
-    </footer>
+        <script src="script.js"></script>
 
-    <script src="script.js"></script>
-</body>
+    </body>
 </html>
