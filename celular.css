@@ -21,6 +21,7 @@ main {
 
 header h1{
     padding: 24px 0 0 16px;
+    height: 72px;
 }
 
 .container-conteudo {
@@ -38,7 +39,7 @@ textarea {
     background-color: transparent;
     border: none;
     outline: none;
-    margin: 80px 0px 30px 0;
+    margin: 80px 0px 32px 0;
     height: 267px;
     width: 327px;
 }
@@ -53,7 +54,7 @@ textarea {
 .container-alerta-texto {
     display: flex;
     height: 18px;
-    margin-top: 24px;
+    margin-top: 32px;
     margin-bottom: 16px;
 }
 
