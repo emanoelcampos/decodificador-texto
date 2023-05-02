@@ -17,14 +17,16 @@ body, html {
 main {
     position: relative;
     min-height: 100%;
-    margin: 0px 16px 0 16px;
-    width: 90%;
 }
 
 header h1{
     padding: 24px 0 0 16px;
 }
 
+.container-conteudo {
+    margin: 0 auto;
+    width: 327px;
+}
 
 textarea {
     font-style: normal;
@@ -36,10 +38,9 @@ textarea {
     background-color: transparent;
     border: none;
     outline: none;
-    height: auto;
     margin: 80px 0px 30px 0;
-    width: 90%;
     height: 267px;
+    width: 327px;
 }
 
 ::placeholder {
@@ -103,7 +104,7 @@ textarea {
     border-radius: 32px;
     margin-top: 64px;
     padding: 32px 0;
-    margin-bottom: 30px;
+    margin-bottom: 64px;
 }
 
 .img-output {
