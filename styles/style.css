@@ -35,7 +35,7 @@ textarea {
     font-size: 32px;
     color: #0A3871;
     resize: none;
-    overflow: hidden;
+    overflow: auto;
     background-color: transparent;
     border: none;
     outline: none;
