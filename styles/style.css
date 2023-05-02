@@ -1,50 +1,35 @@
 @charset "utf-8";
 
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-html, body {
-    height: 100vh;
-    width: 100vw;
-}  
-
-body {
     font-family: 'Inter', sans-serif;
-    background-color: #F3F5FC;
-    position:relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F5FC;
+}  
 
 main {
     position: relative;
-    height: 100vh;
-    width: 100vw;
- }
+    min-height: 100%;
+}
 
 header h1{
-    padding: 40px 0 0 40px;
+    margin: 24px 0 0 16px;
+    height: 72px;
 }
 
-#img-logo{
-    padding-left: 45px;
-    padding-right: 45px;
-}
-
-.container-conteudo{
-    display: flex;
-    
-}
-
-.container-input {
-    width: 60%;
+.container-conteudo {
+    margin: 0 auto;
+    width: 327px;
 }
 
 textarea {
-    height: 450px;
-    width: 680px;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -54,12 +39,12 @@ textarea {
     background-color: transparent;
     border: none;
     outline: none;
-    margin-top: 80px;
-    margin-left: 240px;
+    margin: 80px 0px 32px 0;
+    height: 267px;
+    width: 327px;
 }
 
 ::placeholder {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -69,10 +54,8 @@ textarea {
 .container-alerta-texto {
     display: flex;
     height: 18px;
+    margin-top: 32px;
     margin-bottom: 16px;
-    margin-left: 240px;
-    margin-top: 100px;
-    position: relative;
 }
 
 .img-alerta-texto {
@@ -82,7 +65,6 @@ textarea {
 
 .texto-alerta {
     margin-left: 4px;
-    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -91,12 +73,10 @@ textarea {
 }
 
 .container-botoes button {
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     border-radius: 24px;
     font-style: normal;
     font-weight: 400;
-    position: relative;
 }
 
 .botao-cript {
@@ -106,8 +86,7 @@ textarea {
     border-color: none;
     color: #FFFFFF;
     border: none;
-    margin-right: 12px;
-    margin-left:240px;
+    margin-bottom: 24px;
 }
 
 .botao-descript {
@@ -116,74 +95,53 @@ textarea {
     background-color: #D8DFE8;
     border: 1px solid #0A3871;
     color: #0A3871;
-    margin-left: 12px;
 }
 
 .container-output {
-    position: relative;
-    width: 40%;
-}
-
-.container-quadro-branco {
-    width: 400px;
-    height: 850px;
-    left: 100px;
-    top: -50px;
+    width: 327px;
+    height: 186px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    margin-left: 80px;
-    position: absolute;
-}
-
-.container-img-texto-output {
-    margin: 50% 0;
+    margin-top: 64px;
+    padding: 32px 0;
+    margin-bottom: 64px;
 }
 
 .img-output {
-    margin: 0 32px 16px 32px;
-}
-
-.container-sem-input-textos {
-    margin-top: 16px;
-    margin-left: 32px;
+    display: none;
 }
 
 .titulo-sem-input {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     color: #343A40;
     text-align: center;
-    width: 336px;
+    width: 263px;
     height: 58px;
-    margin-bottom: 8px;
+    margin: 0 32px 16px 32px;
 }
 
 .texto-sem-input {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #495057;
     text-align: center;
-    width: 336px;
+    width: 263px;
     height: 48px;
-    margin-top: 8px;
+    margin: 0 32px 0px 32px;
 }
-
 
 footer {
-    color: black;    
+    bottom: 0;
+    width: 100%;
     text-align: center;
     font-size: 14px;
-    position:absolute; 
-    bottom:0; 
-    width: 100%;
-    height: 30px;
+    padding: 10px;
 }
-
+  
 footer a {
     color: #0A3871;
     font-weight: bolder;
@@ -195,3 +153,4 @@ footer a:hover {
     text-decoration: underline;
     color:rgb(216, 93, 11);
 }
+
